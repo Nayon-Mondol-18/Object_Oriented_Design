@@ -2,6 +2,7 @@
 // Title : A java programme to demonstrate Single Responsibility Principle.
 // Author : Nayon Mondol, Undergrduate student, Khulna University.
 //*************************************************************************
+
 /**
  * This class represents a simple Student.
  */
@@ -72,10 +73,10 @@ class StudentManagementSystem {
 /**
  * This class demonstrates the usage of Student and StudentManagementSystem classes.
  */
-class SchoolDemo {
+class Single_Responsibility_Principle {
     public static void main(String[] args) {
         // Create a student
-        Student student = new Student("Nayon", 21, "Computer Science");
+        Student student = new Student("Nayon", 21, "Computer Science and Engineering");
 
         // Enroll the student in a course using StudentManagementSystem
         StudentManagementSystem sms = new StudentManagementSystem();
